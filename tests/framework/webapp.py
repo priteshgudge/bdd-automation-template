@@ -18,7 +18,7 @@ class WebApp:
         elif str(settings['browser']).lower() is "chrome":
             self.driver = webdriver.Chrome()
         else:
-            self.driver = webdriver.Firefox()
+            self.driver = webdriver.Chrome()
 
     def get_driver(self):
         return self.driver

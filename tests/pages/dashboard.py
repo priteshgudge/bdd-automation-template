@@ -43,5 +43,8 @@ class Dashboard():
         # assert row in status, "{} not present in GPS component".format(row)
         print('Verifying GPS setting..')
 
+    def verify_login_form(self, row):
+        form = self.driver.find_element_by_id('')
+
 
 dashboard = Dashboard.get_instance()
